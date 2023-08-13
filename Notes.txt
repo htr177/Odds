@@ -1,0 +1,22 @@
+Thoughts:
+- What do the chosen features tell about match results?
+- What are the most important features?
+- Identify relationships/trends between features
+
+- In what period of the season does team A perform best measured in FTR, goals, shots, etc.?
+- In what period of the season does team A perform worst?
+- Luton Town FC only team with no premier league experience (data), how does this affect their performance?
+
+
+Pitfalls:
+- Accounting for period team dominance/weakness (use weights?)
+- Accounting for teams that been promoted/relegated (use weights?)
+
+
+
+Ideas:
+- Database with ALL players and their stats (and possibly rankings)
+- Database with all teams and their stats (maybe even a ranking)
+- Database with all matches and their stats
+
+- Could use databases (or views) with updated info computed by various ML-algorithms in order to display on webapp using psycopg2
