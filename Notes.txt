@@ -20,3 +20,9 @@ Ideas:
 - Database with all matches and their stats
 
 - Could use databases (or views) with updated info computed by various ML-algorithms in order to display on webapp using psycopg2
+
+
+***
+Change labelling to binary classification (win/no win (lose & draw)) instead of 3 classes (win/draw/lose)
+
+Alternatively explore the performance of using a softmax regression (aka multinomial logistic regression) instead of a binary logistic regression
